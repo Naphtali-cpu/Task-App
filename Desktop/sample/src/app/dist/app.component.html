@@ -1,0 +1,18 @@
+<div>
+  <h1>My Goals</h1>
+  <hr>
+    <ul *ngFor='let goal of goals'>
+      <li> {{ goal }} </li>
+    </ul>
+    <h2>{{title}}</h2>
+</div>
+
+<div>
+  <h1>My Goals</h1>
+  <hr>
+  <ul>
+      <li *ngFor='let goal of goals'>
+        {{goal.name}}
+      </li>
+  </ul>
+</div>
